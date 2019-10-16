@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Simple Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="compute" method="get">
+            Name: <input type="text" name="name"/><br/>
+            Admin Number: <input type="text" name="adminno"/><br/>
+            Email Address: <input type="email" name="email"/><br/>
+            Gender: <br/>
+            <input type="radio" name="gender" value="Male"/> Male <br/>
+            <input type="radio" name="gender" value="Female"/> Female <br/>
+            Choice of 3rd Year Specialisation: 
+            <select name="specialisation">
+                <option value="Infocomm Solutions">IS</option>
+                <option value="Interactive Media">IM</option>
+                <option value="Communications & Networking">CNet</option>
+                <option value="IT Services and Management">ITSM</option>
+            </select><br/>
+            Height (in cm): <input type="text" name="height"/><br/>
+            Weight (in kg): <input type="text" name="weight"/><br/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>
